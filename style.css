@@ -1,0 +1,23 @@
+* {
+    background-color: #1F2937;
+}
+
+.site-container {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    border-color: aliceblue;
+    gap: 16px;
+}
+
+.site-container div {
+    background: rgb(81, 81, 100);
+    border: 4px solid red;
+    flex: 1 1 auto;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: aliceblue;
+    text-align: center;
+}
