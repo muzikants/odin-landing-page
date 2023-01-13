@@ -15,7 +15,7 @@
 }
 
 .site-container div {
-    border: 4px  red;
+    border: 4px red;
     
 }
 .hero {
@@ -128,16 +128,24 @@
     color: #1F2937;
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    align-content: center;
     justify-content: center;
-    align-items: center;
 }
 .quote p{
     background-color: #E5E7EB;
     font-style: italic;
-    font-size: 36 px;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: -25px;
 }
 .quote h6{
     background-color: #E5E7EB;
+    font-size: 36px;
+    text-align: right;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    
 }
 
 
